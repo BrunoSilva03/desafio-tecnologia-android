@@ -36,21 +36,40 @@ main > img {
 }
 
 div {
-    margin: auto;
+    text-align: center;
+}
+
+p {
+    text-indent: 30px;
+    text-align: justify;
 }
 
 header {
-    background-image: linear-gradient(#07F242, #1B5936);
+    background-image: linear-gradient(#5ef18383, #1B5936);
+    color: white;
     padding: 50px;
     text-align: center;
 }
 
-header > nav {
+header > p {
     
-    
+    text-align: center;
+}
+
+header > h1 {
+    font-family: 
 }
 
 footer {
+    text-align: center;
+    background-color: #1B5936;
+    color: white;
+    padding: 1px;
+    margin-top: 60px;
+    
+}
+
+footer > p {
     text-align: center;
 }
 /*Paleta de Cores::
