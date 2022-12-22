@@ -1,7 +1,63 @@
+@font-face {
+    font-family: 'linguagem android';
+    src: url(fontes/idroid.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0px;
+    background-color: #82D9A0;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+main {
+    background-color: white;
+    margin: 0px 100px;
+    padding: 30px;
+}
+
+main > h1, h2 {
+    font-family: 'linguagem android';
+    color: #1B5936;
+    margin-top: 0px;
+    
+}
+
+main > h2 {
+    background-image:linear-gradient(#82D9A0, white)
+}
+
+main > img {
+    margin: auto;
+    
+}
+
+div {
+    margin: auto;
+}
+
+header {
+    background-image: linear-gradient(#07F242, #1B5936);
+    padding: 50px;
+    text-align: center;
+}
+
+header > nav {
+    
+    
 }
 
 footer {
     text-align: center;
 }
+/*Paleta de Cores::
+#1B5936
+#82D9A0
+#07F242
+#F22929
+#F2F2F2
+/*
+
