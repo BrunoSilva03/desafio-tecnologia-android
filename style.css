@@ -27,6 +27,7 @@ header > p {
 
 header > h1 {
     font-style: bolder;
+    margin-top: 10px;
 }
 
 header > nav {
@@ -87,6 +88,38 @@ div#video {
     background-color:#1B5936;
     padding: 30px;
     width: 95%;
+}
+
+div#artigo {
+    background-color: #74c98980;
+    padding-bottom: 6px; 
+    padding-left: 1px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.335);
+}
+
+div#artigo > p {
+    background-color: #2f9448fd;
+    color: white;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+div#artigo > div > pre {
+    text-align: left;
+}
+
+div#artigo > div > p {
+    margin: 5px;
+}
+
+div#artigo > div > p > a {
+    color:#2f9448fd;
+    text-decoration: none;
+} 
+
+div#artigo > div > p > a:hover {
+    text-decoration: underline;
 }
 
 p {
