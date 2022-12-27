@@ -12,6 +12,12 @@
     font-style: normal;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
 header {
     font-family: 'rakesly';
     background-image: linear-gradient(#5ef18383, #1B5936);
@@ -59,9 +65,14 @@ body {
 }
 
 main {
+    min-width: 300px;
+    max-width: 900px;
     background-color: white;
-    margin: 0px 340px;
+    margin: auto;
     padding: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.349);
 }
 
 main > h1, h2 {
@@ -69,6 +80,14 @@ main > h1, h2 {
     color: #1B5936;
     margin-top: 0px;
     
+}
+
+main img {
+    width: 100%;
+}
+
+main img.pequena {
+   width: 50%;
 }
 
 h2 {
@@ -128,6 +147,7 @@ p {
 }
 
 footer {
+    width: 100%;
     text-align: center;
     background-color: #1B5936;
     color: white;
