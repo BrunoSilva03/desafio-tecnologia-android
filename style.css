@@ -12,6 +12,19 @@
     font-style: normal;
 }
 
+:root {
+    --cor0: #ebe5c5;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063die;
+
+    --fonte-padrão: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-de-destaque: 'Bebesa Neue';
+    --fonte-android: 'Android';
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -20,41 +33,52 @@
 
 header {
     font-family: 'rakesly';
-    background-image: linear-gradient(#5ef18383, #1B5936);
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
     color: white;
     text-align: center;
+    min-height: 150px;
+    padding-top: 40px;
+}
+
+header > h1 {
+    font-size: 3em;
+    font-style: bolder;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.433);
 }
 
 header > p {
     text-align: center;
-    font-size: larger
+    font-size: 1.2em;
+    max-width: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    margin-bottom: 30px;
     
 }
 
-header > h1 {
-    font-style: bolder;
-    margin-top: 10px;
-}
-
-header > nav {
-    background-color: #237446;
-    /**/
+nav {
+    background-color: var(--cor4);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.205);
     text-align: left;
-    padding: 5px;
+    
 }
 
-header > nav > a{
+nav > a {
     color: white;
     text-decoration: none;
-    padding-right: 30px;
+    padding: 10px;
+    font-weight: bold;
     
 }
 
-header > nav > a:hover {
-    text-decoration: underline;
+nav > a:hover {
+    background-color:var(--cor2);
+    transition-duration: 0.3s;
 }
-
-
 
 body {
     margin: 0px;
