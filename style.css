@@ -65,6 +65,7 @@ nav {
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.205);
     text-align: left;
     
+    
 }
 
 nav > a {
@@ -183,6 +184,8 @@ footer {
 footer > p {
     text-align: center;
 }
+
+
 /*Paleta de Cores::
 #1B5936
 #82D9A0
