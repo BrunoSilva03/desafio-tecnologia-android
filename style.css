@@ -107,6 +107,11 @@ main > h1, h2 {
     
 }
 
+main p {
+    line-height: 2em;
+    font-size: 1.1em;
+}
+
 main img {
     width: 100%;
 }
@@ -117,6 +122,7 @@ main img.pequena {
 
 h2 {
     background-image: linear-gradient(to right, #8edaa98a, white);
+    margin-top: 30px;
 }
 
 main > img {
