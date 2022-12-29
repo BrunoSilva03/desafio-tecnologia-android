@@ -112,6 +112,17 @@ main p {
     font-size: 1.1em;
 }
 
+main a {
+    color:var(--cor4);
+    background-color:var(--cor2);
+    text-decoration: none;
+}
+
+main a:hover {
+    color:var(--cor3);
+    text-decoration: underline;
+}
+
 main img {
     width: 100%;
 }
@@ -143,43 +154,30 @@ div#video {
 aside {
     background-color: var(--cor1);
     list-style-position: inside;
-}
-
-
-
-/*
-div#artigo {
-    background-color: #74c98980;
-    padding-bottom: 6px; 
-    padding-left: 1px;
+    margin-top: 15px;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.363);
     border-radius: 10px;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.335);
+    
 }
 
-div#artigo > p {
-    background-color: #2f9448fd;
+aside > p#titulo {
     color: white;
-    padding: 6px;
-    border-radius: 5px;
-}
-
-div#artigo > div > pre {
+    background-color:var(--cor3);
+    border-radius: 10px 10px 0px 0px;
     text-align: left;
+    padding: 0px;
+    font-weight: bold;
+    text-indent: 6px;
+    
 }
 
-div#artigo > div > p {
-    margin: 5px;
+aside p {
+    padding: 10px;
 }
 
-div#artigo > div > p > a {
-    color:#2f9448fd;
-    text-decoration: none;
-} 
-
-div#artigo > div > p > a:hover {
-    text-decoration: underline;
+aside ul {
+    columns: 2;
 }
-*/
 
 p {
     text-indent: 30px;
