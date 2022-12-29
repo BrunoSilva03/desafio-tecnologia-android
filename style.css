@@ -140,6 +140,14 @@ div#video {
     width: 95%;
 }
 
+aside {
+    background-color: var(--cor1);
+    list-style-position: inside;
+}
+
+
+
+/*
 div#artigo {
     background-color: #74c98980;
     padding-bottom: 6px; 
@@ -171,6 +179,7 @@ div#artigo > div > p > a {
 div#artigo > div > p > a:hover {
     text-decoration: underline;
 }
+*/
 
 p {
     text-indent: 30px;
