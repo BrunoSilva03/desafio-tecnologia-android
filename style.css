@@ -34,13 +34,13 @@
 header {
     font-family: 'rakesly';
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
-    color: white;
     text-align: center;
     min-height: 150px;
     padding-top: 40px;
 }
 
 header > h1 {
+    color: white;
     font-size: 3em;
     font-style: bolder;
     margin-top: 10px;
@@ -49,6 +49,8 @@ header > h1 {
 }
 
 header > p {
+
+    color: white;
     text-align: center;
     font-size: 1.2em;
     max-width: 600px;
@@ -160,6 +162,18 @@ div#video {
     background-color:#1B5936;
     padding: 30px;
     width: 95%;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+div#video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 aside {
