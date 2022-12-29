@@ -202,7 +202,7 @@ footer {
     text-align: center;
     background-color: #1B5936;
     color: white;
-    padding: 1px;
+    padding: 10px;
     margin-top: 60px;
     
 }
@@ -211,12 +211,12 @@ footer > p {
     text-align: center;
 }
 
+footer a {
+    color: white;
+    text-decoration: none;
+}
 
-/*Paleta de Cores::
-#1B5936
-#82D9A0
-#07F242
-#F22929
-#F2F2F2
-/*
+footer a:hover {
+    text-decoration: underline;
+}
 
