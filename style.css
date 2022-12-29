@@ -89,6 +89,12 @@ body {
     border: 0px;
 }
 
+h2 {
+    background-image: linear-gradient(to right, #8edaa98a, white);
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
 main {
     min-width: 300px;
     max-width: 900px;
@@ -110,12 +116,17 @@ main > h1, h2 {
 main p {
     line-height: 2em;
     font-size: 1.1em;
+    margin-bottom: 30px;
 }
 
 main a {
     color:var(--cor4);
     background-color:var(--cor2);
     text-decoration: none;
+}
+
+main a::after {
+    content: '\1F517';
 }
 
 main a:hover {
@@ -131,14 +142,14 @@ main img.pequena {
    width: 50%;
 }
 
-h2 {
-    background-image: linear-gradient(to right, #8edaa98a, white);
-    margin-top: 30px;
-}
 
 main > img {
     margin: auto;
     
+}
+
+main strong {
+    color:var(--cor4)
 }
 
 div {
@@ -157,7 +168,7 @@ aside {
     margin-top: 15px;
     box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.363);
     border-radius: 10px;
-    
+    margin-bottom: 20px;
 }
 
 aside > p#titulo {
@@ -173,10 +184,12 @@ aside > p#titulo {
 
 aside p {
     padding: 10px;
+    margin: 0px;
 }
 
 aside ul {
     columns: 2;
+    list-style-type: '\00A0\2714\00A0';
 }
 
 p {
